@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="5" passed="5" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2023-05-12T11:45:48 EDT" name="OpencartSuite" finished-at="2023-05-12T11:46:29 EDT" duration-ms="41133">
+    <groups>
+    </groups>
+    <test started-at="2023-05-12T11:45:48 EDT" name="Test" finished-at="2023-05-12T11:46:29 EDT" duration-ms="41133">
+      <class name="testCases.TC_002_Logintest">
+        <test-method is-config="true" signature="setup(java.lang.String)[pri:0, instance:testCases.TC_002_Logintest@5f049ea1]" started-at="2023-05-12T11:45:49 EDT" name="setup" finished-at="2023-05-12T11:45:55 EDT" duration-ms="5934" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="test_logintest()[pri:0, instance:testCases.TC_002_Logintest@5f049ea1]" started-at="2023-05-12T11:45:55 EDT" name="test_logintest" finished-at="2023-05-12T11:45:56 EDT" duration-ms="1714" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test_logintest -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:testCases.TC_002_Logintest@5f049ea1]" started-at="2023-05-12T11:45:56 EDT" name="tearDown" finished-at="2023-05-12T11:45:57 EDT" duration-ms="735" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- testCases.TC_002_Logintest -->
+      <class name="testCases.TC_003_LoginDataDriventest">
+        <test-method is-config="true" signature="setup(java.lang.String)[pri:0, instance:testCases.TC_003_LoginDataDriventest@68c9133c]" started-at="2023-05-12T11:45:57 EDT" name="setup" finished-at="2023-05-12T11:46:01 EDT" duration-ms="3760" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="test_logintest(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:testCases.TC_003_LoginDataDriventest@68c9133c]" started-at="2023-05-12T11:46:02 EDT" name="test_logintest" data-provider="LoginData" finished-at="2023-05-12T11:46:04 EDT" duration-ms="2187" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[ychalla55@gmail.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Yash#0503]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[valid]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test_logintest -->
+        <test-method signature="test_logintest(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:testCases.TC_003_LoginDataDriventest@68c9133c]" started-at="2023-05-12T11:46:04 EDT" name="test_logintest" data-provider="LoginData" finished-at="2023-05-12T11:46:15 EDT" duration-ms="11063" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[soya232@gmail.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[test]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Invalid]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test_logintest -->
+        <test-method signature="test_logintest(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:testCases.TC_003_LoginDataDriventest@68c9133c]" started-at="2023-05-12T11:46:15 EDT" name="test_logintest" data-provider="LoginData" finished-at="2023-05-12T11:46:26 EDT" duration-ms="11036" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[soya23@gmail.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[test1]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Invalid]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test_logintest -->
+        <test-method signature="test_logintest(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:testCases.TC_003_LoginDataDriventest@68c9133c]" started-at="2023-05-12T11:46:26 EDT" name="test_logintest" data-provider="LoginData" finished-at="2023-05-12T11:46:29 EDT" duration-ms="2525" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[soya2773@gmail.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Yash123]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[valid]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test_logintest -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:testCases.TC_003_LoginDataDriventest@68c9133c]" started-at="2023-05-12T11:46:29 EDT" name="tearDown" finished-at="2023-05-12T11:46:29 EDT" duration-ms="692" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- testCases.TC_003_LoginDataDriventest -->
+    </test> <!-- Test -->
+  </suite> <!-- OpencartSuite -->
+</testng-results>
